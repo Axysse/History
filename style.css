@@ -1,215 +1,416 @@
-
-/*bannière1*/
-#ban-1 {
-    background-image: url(bannière-index.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    border: solid 7px gold;
-}
-
-#ban-1 section {
-    background-color: rgba(30, 77, 30, 0.6);
-    padding: 10%;
-}
-
-#ban-1 article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#ban-1 li {
-    display: flex;
-}
-
-#ban-1 ul{
-    padding-top: 10%;
-    padding-bottom: 2%;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 17%;
-}
-
-/*bannière2 */
-
-#ban-2 {
-background-image: url(Bayeux-Tapisserie-de-Bayeux-4542-BayeuxMuseum.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0;
-border: solid 7px rgb(73, 11, 11);
-}
-
-#ban-2 section {
-    background-color: rgba(90, 145, 226, 0.6);
-    padding: 10%;
-}
-
-#ban-2 article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#ban-2 h1 {
-    text-transform: uppercase;
-    font-size: larger;
-}
-
-#ban-2 a {
-    text-transform: lowercase;
-    color: black;
-}
-
-/*bannière 3*/
-
-#ban-3 {
-    background-image: url(prise-jerusalem-croises-1099.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    border: solid 7px rgb(42, 12, 66);
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
-    
+
+    .main-text img {
+        height: 150px;
+        width: 300px;
+    }
+
+    .main-img img {
+        height: 150px;
+        width: 300px;
+    }
+
+    #ban1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    aside {
+        border: solid 5px brown;
+        background-color: rgb(77, 23, 128);
+        width: 30%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5em;
+        width: 100%;
+    }
+
+    /*bannière1*/
+    #ban-1 {
+        background-image: url(bannière-index.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px gold;
+    }
+
+    #ban-1 section {
+        background-color: rgba(30, 77, 30, 0.6);
+        padding: 10%;
+    }
+
+    #ban-1 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ban-1 li {
+        display: flex;
+    }
+
+    #ban-1 ul {
+        padding-top: 10%;
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 17%;
+    }
+
+    /*bannière2 */
+
+    #ban-2 {
+        background-image: url(Bayeux-Tapisserie-de-Bayeux-4542-BayeuxMuseum.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(73, 11, 11);
+    }
+
+    #ban-2 section {
+        background-color: rgba(90, 145, 226, 0.6);
+        padding: 10%;
+    }
+
+    #ban-2 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ban-2 h1 {
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+    #ban-2 a {
+        text-transform: lowercase;
+        color: black;
+    }
+
+    /*bannière 3*/
+
+    #ban-3 {
+        background-image: url(prise-jerusalem-croises-1099.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(42, 12, 66);
+    }
+
     #ban-3 section {
         background-color: rgba(209, 202, 104, 0.6);
         padding: 10%;
     }
-    
+
     #ban-3 article {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     #ban-3 h1 {
         text-transform: uppercase;
         font-size: larger;
     }
-    
+
     #ban-3 a {
         text-transform: lowercase;
         color: black;
     }
 
-/* bannière 4*/
+    /* bannière 4*/
 
-#ban-4 {
-    background-image: url(Tapisserie-de-Bayeux-Bandeau-web-3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    border: solid 7px rgb(167, 177, 28);
+    #ban-4 {
+        background-image: url(Tapisserie-de-Bayeux-Bandeau-web-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(167, 177, 28);
     }
-    
+
     #ban-4 section {
         background-color: rgba(168, 77, 77, 0.6);
         padding: 10%;
     }
-    
+
     #ban-4 article {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     #ban-4 h1 {
         text-transform: uppercase;
         font-size: larger;
     }
-    
+
     #ban-4 a {
         text-transform: lowercase;
         color: black;
     }
 
-/* footer commun*/
+    /* footer commun*/
 
-footer {
-    background-color: lightgrey;
+    footer {
+        background-color: lightgrey;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        height: 7em;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    /* fin footer*/
 }
 
-footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-    height: 7em;
-}
+@media screen and (min-width:601px) {
 
-footer li {
-    list-style: none;
-}
+    /*bannière1*/
+    #ban-1 {
+        background-image: url(bannière-index.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px gold;
+    }
 
-/* fin footer*/
+    #ban-1 section {
+        background-color: rgba(30, 77, 30, 0.6);
+        padding: 10%;
+    }
 
-article img{
-    height: 125px;
-    width: 100px;
-}
+    #ban-1 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-a {
-    text-decoration: none;
-    font-size: large;
-    color: white;
-}
+    #ban-1 li {
+        display: flex;
+    }
 
-a:hover {
-    border: solid 5px gold;
-}
+    #ban-1 ul {
+        padding-top: 10%;
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 17%;
+    }
 
-.main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    /*bannière2 */
 
-main {
-    display: flex;
-}
+    #ban-2 {
+        background-image: url(Bayeux-Tapisserie-de-Bayeux-4542-BayeuxMuseum.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(73, 11, 11);
+    }
 
-main aside {
-    border: solid 5px brown;
-    background-color: rgb(77, 23, 128);
-    width: 30%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5em;
-}
+    #ban-2 section {
+        background-color: rgba(90, 145, 226, 0.6);
+        padding: 10%;
+    }
 
-aside img {
-    object-fit: contain;
-}
+    #ban-2 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.para {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 2em;
-}
+    #ban-2 h1 {
+        text-transform: uppercase;
+        font-size: larger;
+    }
 
-main section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5em;
-    padding-left: 3em;
-}
+    #ban-2 a {
+        text-transform: lowercase;
+        color: black;
+    }
 
-main img {
-    height: 400px;
-    width: 700px;
+    /*bannière 3*/
+
+    #ban-3 {
+        background-image: url(prise-jerusalem-croises-1099.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(42, 12, 66);
+    }
+
+    #ban-3 section {
+        background-color: rgba(209, 202, 104, 0.6);
+        padding: 10%;
+    }
+
+    #ban-3 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ban-3 h1 {
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+    #ban-3 a {
+        text-transform: lowercase;
+        color: black;
+    }
+
+    /* bannière 4*/
+
+    #ban-4 {
+        background-image: url(Tapisserie-de-Bayeux-Bandeau-web-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: solid 7px rgb(167, 177, 28);
+    }
+
+    #ban-4 section {
+        background-color: rgba(168, 77, 77, 0.6);
+        padding: 10%;
+    }
+
+    #ban-4 article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ban-4 h1 {
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+    #ban-4 a {
+        text-transform: lowercase;
+        color: black;
+    }
+
+    /* footer commun*/
+
+    footer {
+        background-color: lightgrey;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        height: 7em;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    /* fin footer*/
+
+    article img {
+        height: 125px;
+        width: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: large;
+        color: white;
+    }
+
+    a:hover {
+        border: solid 5px gold;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+    }
+
+    main aside {
+        border: solid 5px brown;
+        background-color: rgb(77, 23, 128);
+        width: 30%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    aside img {
+        object-fit: contain;
+    }
+
+    #main-img img {
+        /* height: 40em;  */
+        /* width: 70em;  */
+        height: 70%;
+        width: 85%;
+        object-fit: contain;
+    }
+
+    .para {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5em;
+        padding-left: 3em;
+    }
 }
